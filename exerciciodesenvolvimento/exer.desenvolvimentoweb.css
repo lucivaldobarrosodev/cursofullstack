@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+
+body {
+  background: #516b8b;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #056b3b, #516b8b);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #056b3b, #516b8b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  min-height: 100vh;
+}
+.content {
+  background: #005AA7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  width: 600px;
+  padding: 40px;
+  margin: 20px;
+  border: 2px solid #bbb;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header img {
+  width: 140px;
+  height: 140px;
+  border-radius: 40%;
+  border: 3px solid #666;
+}
+
+header h1 {
+  margin-top: 15px;
+  /* font-family: "Limelight", sans-serif; */
+  font-family: "Bitcount Grid Single Ink", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+  text-align: center;
+
+}
+header p {
+  margin-top: 4px;
+  color: #150202;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.content_main {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.content_main ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  gap: 20px;
+ 
+}
+
+.content_main ul li {
+  width: 30px;
+  color: #150202;
+}
+
+.content_main ul li a {
+  color: #150202;
+  text-decoration: none;
+  font-size: 26px;
+  
+}
+
+.content_main ul li a:hover {
+  font-size: 30px;
+  transition: font-size 0.2s ease;
+  
+}
+
+.nome:hover {
+  color: #1e055e;
+  text-align: center;
+  font-size: 30px;
+  transition: font-size 0.2s ease;
+}
+  
+
+.link-github:hover {
+  color: #fc5705;
+}
+
+.link-linkedin:hover {
+  color: #f908a1;
+}
+
+.link-instagram:hover {
+  color: #7cfa06;
+}
+
+.link-twitter:hover {
+  color: #08e9e1;
+}
+
+.link-youtube:hover {
+  color: #ff0000;
+}
+
+main a {
+  border: 2px solid #150202;
+  border-radius: 12px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  color: #333;
+  padding: 10px 15px;
+}
+
+main a:hover {
+  background: #f0f0f0;
+  border: 2px solid #333;
+  transition: background-color 0.3s ease;
+}
+
+footer {
+  background: #0f0c29;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 12px;
+  gap: 10px;
+  cursor: pointer;
+}
+
+footer:hover {
+  background-color: #111;
+  transition: background-color 0.2s ease;
+}
+
+footer i {
+  padding: 0 20px;
+  font-size: 24px;
+}
+
+footer span {
+  font-size: 14px;
+}
+
+footer h2 {
+  font-size: 18px;
+}
